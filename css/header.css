@@ -424,6 +424,10 @@
   }
 
   
+    #buttonarea{
+    font-size: 2rem;
+  }
+
 /*사진*/
 #photodiv{
   margin-top: 100px;
@@ -548,7 +552,7 @@
   }
 
     #buttonarea{
-    font-size: 5rem;
+    font-size: 3rem;
   }
     #dresscode{
     font-weight: 600;
