@@ -574,13 +574,13 @@
 }
 
 .photobox{
-  width: 90%;
+  width: 100%;
   border: 1px solid rgb(230, 230, 230);
   margin-bottom: 40px;
 }
 .photohead{
   margin: 5px 0px;
- display: flex;
+  display: flex;
 }
 
 .photohead img{
