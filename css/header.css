@@ -1,11 +1,6 @@
 @charset "UTF-8";
 
 
-   #hedermenu #headermenuleft li {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
   #hedermenu #headermenuleft li:hover {
     color: #2010f8;
     font-weight: bold;
@@ -17,7 +12,7 @@
 
   /*상단메뉴*/
   #hedermenu {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     color: #414040;
     display: flex;
     justify-content: space-between;
@@ -34,6 +29,11 @@
     cursor: pointer;
     position: fixed;
     background-color: white;
+  }
+
+  #hedermenu #headermenuleft li {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   /*초대장 이미지*/
@@ -91,7 +91,7 @@
 
   /*상단메뉴*/
   #hedermenu {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
     color: #414040;
     display: flex;
     justify-content: space-between;
@@ -110,9 +110,14 @@
     background-color: white;
   }
 
+  #hedermenu #headermenuleft li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
   /*초대장 이미지*/
   #invitation2{
-    margin-top: 70px;
+    margin-top: 90px;
     width: 100%;
   }
 
@@ -161,10 +166,15 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   /*상단메뉴*/
   #hedermenu {
-    font-size: 1.15rem;
+    font-size: 1.7rem;
     color: #414040;
     display: flex;
     justify-content: space-between;
+  }
+
+  #hedermenu #headermenuleft li {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   /*왼쪽메뉴*/
@@ -230,12 +240,17 @@
   
   /*상단메뉴*/
   #hedermenu {
-    font-size: 1.15rem;
+    font-size: 2rem;
     color: #414040;
     display: flex;
     justify-content: space-between;
   }
 
+
+  #hedermenu #headermenuleft li {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 
   /*왼쪽메뉴*/
   #hedermenu #headermenuleft {
@@ -251,7 +266,7 @@
 
   /*초대장 이미지*/
   #invitation2{
-    margin-top: 50px;
+    margin-top: 70px;
     width: 100%;
   }
 
