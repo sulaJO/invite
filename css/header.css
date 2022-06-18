@@ -176,6 +176,7 @@
 }
 
 .photohead img{
+  pointer-events : none;
   margin-left: 10px;
   height: 80px;
 }
@@ -186,6 +187,7 @@
 }
 
   .photoimg img{
+    pointer-events : none;
     width: 100%;
   }
 
@@ -322,6 +324,7 @@
 }
 
 .photohead img{
+  pointer-events : none;
   margin-left: 10px;
   height: 80px;
 }
@@ -332,6 +335,7 @@
 }
 
   .photoimg img{
+    pointer-events : none;
     width: 100%;
   }
 
@@ -463,6 +467,7 @@
 }
 
 .photohead img{
+  pointer-events : none;
   margin-left: 10px;
   height: 80px;
 }
@@ -473,6 +478,7 @@
 }
 
   .photoimg img{
+    pointer-events : none;
     width: 100%;
   }
 
@@ -605,6 +611,7 @@
 }
 
 .photohead img{
+  pointer-events : none;
   margin-left: 5px;
   height: 60px;
 }
@@ -615,6 +622,7 @@
 }
 
   .photoimg img{
+    pointer-events : none;
     width: 100%;
   }
 
