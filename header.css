@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+
+   #hedermenu #headermenuleft li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #hedermenu #headermenuleft li:hover {
+    color: #2010f8;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+@media all and (min-width: 1280px) {
+  /**************************************/
+
+  /*상단메뉴*/
+  #hedermenu {
+    font-size: 1.15rem;
+    color: #414040;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  /*왼쪽메뉴*/
+  #hedermenu #headermenuleft {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    cursor: pointer;
+    position: fixed;
+    background-color: white;
+  }
+
+  /*초대장 이미지*/
+  #invitation2{
+    margin-top: 100px;
+    width: 100%;
+  }
+
+    #invitation2 img{
+    width: 100%;
+  }
+
+    #invitation img{
+    width: 100%;
+  }
+
+  /*메인페이지 내용*/
+  #maincontent{
+    margin-top: 25px;
+    font-size: 1.15rem;
+
+  }
+  
+  #maincontent #maincontentinfo{
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+  }  
+
+  #maincontent #maincontentinfo div{
+    margin-bottom: 10px;
+  }
+
+  #dresscode{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 80px;
+
+  }
+
+  #maincontent2 div{
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+
+  }
+
+  #dresscode img{
+    width: 20%;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+
+  /*상단메뉴*/
+  #hedermenu {
+    font-size: 1.15rem;
+    color: #414040;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  /*왼쪽메뉴*/
+  #hedermenu #headermenuleft {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    cursor: pointer;
+    position: fixed;
+    background-color: white;
+  }
+
+  /*초대장 이미지*/
+  #invitation2{
+    margin-top: 70px;
+    width: 100%;
+  }
+
+    #invitation2 img{
+    width: 100%;
+  }
+
+    #invitation img{
+    width: 100%;
+  }
+
+  /*메인페이지 내용*/
+  #maincontent{
+    margin-top: 25px;
+    font-size: 1.15rem;
+
+  }
+
+  #maincontent #maincontentinfo{
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+  }  
+
+  #maincontent #maincontentinfo div{
+    margin-bottom: 10px;
+  }
+
+  #maincontent2 div{
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+
+  }
+    #dresscode{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 80px;
+
+  }
+  #dresscode img{
+    width: 30%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /*상단메뉴*/
+  #hedermenu {
+    font-size: 1.15rem;
+    color: #414040;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*왼쪽메뉴*/
+  #hedermenu #headermenuleft {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    background-color: white;
+  }
+
+  /*초대장 이미지*/
+  #invitation2{
+    margin-top: 80px;
+    width: 100%;
+  }
+
+    #invitation2 img{
+    width: 100%;
+  }
+
+    #invitation img{
+    width: 100%;
+  }
+
+  /*메인페이지 내용*/
+  #maincontent{
+    margin-top: 25px;
+    font-size: 1.15rem;
+
+  }
+  #maincontent #maincontentinfo{
+    font-weight: 700;
+    font-size: 1.7rem;
+    margin-bottom: 50px;
+  }  
+
+  #maincontent #maincontentinfo div{
+    margin-bottom: 10px;
+  }
+
+  #maincontent2 div{
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+
+  }
+    #dresscode{
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 80px;
+
+  }
+  #dresscode img{
+    width: 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  
+  /*상단메뉴*/
+  #hedermenu {
+    font-size: 1.15rem;
+    color: #414040;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  /*왼쪽메뉴*/
+  #hedermenu #headermenuleft {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    background-color: white;
+  }
+
+  /*초대장 이미지*/
+  #invitation2{
+    margin-top: 50px;
+    width: 100%;
+  }
+
+    #invitation2 img{
+    width: 100%;
+  }
+
+    #invitation img{
+    width: 100%;
+  }
+
+  /*메인페이지 내용*/
+  #maincontent{
+    margin-top: 25px;
+    font-size: 1.15rem;
+
+  }
+  #maincontent #maincontentinfo{
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }  
+
+  #maincontent #maincontentinfo div{
+    margin-bottom: 10px;
+  }
+
+  #maincontent2 div{
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 5px;
+
+  }
+    #dresscode{
+    font-weight: 600;
+    font-size: 2.3rem;
+    margin-bottom: 40px;
+
+  }
+  #dresscode img{
+    width: 50%;
+  }
+}

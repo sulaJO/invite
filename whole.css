@@ -1,0 +1,281 @@
+@charset "UTF-8";
+
+/*글씨크기 기준*/
+@media (max-width: 479px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 599px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 719px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 767px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 879px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 880px) and (max-width: 899px) {
+  html {
+    font-size: 13.5px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 929px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 930px) and (max-width: 1099px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1199px) {
+  html {
+    font-size: 15.5px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1279px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1319px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1320px) and (max-width: 1399px) {
+  html {
+    font-size: 15.5px;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1449px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1450px) and (max-width: 1479px) {
+  html {
+    font-size: 16.5px;
+  }
+}
+
+@media (min-width: 1480px) and (max-width: 1549px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1550px) and (max-width: 1649px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1650px) {
+  html {
+    font-size: 18.5px;
+  }
+}
+
+/***********공통*****************/
+body,
+div,
+ul,
+li,
+dl,
+dt,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+legend,
+p,
+select,
+table,
+th,
+td,
+tr,
+textarea,
+button,
+form {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+div {
+  overflow: hidden;
+}
+
+body {
+  font: 12px "빙그레 메로나체", 맑은 고딕, 돋움, 굴림;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+a:active {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+#buttonarea{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+a.ynbutton {
+  display: block;
+  position: relative;
+  float: left;
+  width: 30%;
+  padding: 0;
+  margin: 10px 10px 10px 10px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  color: #FFF;
+  border-radius: 5px;
+  transition: all 0.2s ;
+}
+
+.ynbutton:hover {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.btnBlueGreen {
+  background: #0D6587;
+  box-shadow: 0px 5px 0px 0px #0E97B7;
+}
+
+.btnBlueGreen.ynbutton:hover {
+  box-shadow: 0px 0px 0px 0px #0E97B7;
+}
+
+.btnLightBlue {
+  background: #EB7262;
+  box-shadow: 0px 5px 0px 0px #EE8548;
+}
+
+.btnLightBlue.ynbutton:hover {
+  box-shadow: 0px 0px 0px 0px #EE8548;
+}
+
+@media all and (min-width: 1280px) {
+  /**************************************/
+  /*전체적용*/
+  .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  .container {
+    width: 80%;
+    min-width: 950px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /*전체적용*/
+  .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container {
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /*전체적용*/
+  .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+/*320 min*/
+@media (max-width: 767px) {
+  /*전체적용*/
+  .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
