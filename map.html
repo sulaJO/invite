@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/whole.css" rel="stylesheet" type="text/css">
+    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	5860086ea27ebe9c0fe99c6efe983d3c"></script>
+    <title>웨딩파티 초대장</title>
+</head>
+<body>
+	<div class="wrap">
+		<div class="container">
+            <div id="hedermenu">
+                <ul id="headermenuleft">
+                    <li id="invite" onclick="invite()">초대장</li>
+                    <li id="yorn" onclick="yorn()">참석여부</li>
+                    <li id="address" onclick="map()">장소</li>
+                    <li id="photo" onclick="img()">사진</li>
+                    <li id="event">이벤트</li>
+                    <li id="table">자리확인</li>
+                    <li id="table">TMI</li>
+                </ul>
+            </div>
+            <div id="maparea">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1880.579043381485!2d126.98301257529567!3d37.56108648387366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca3cf70cddfe5%3A0x6d0bc8c04c1044b1!2z7Jio7KaI65Oc66Gs!5e0!3m2!1sko!2skr!4v1655536763373!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div id="mapway">
+                    <a href="https://map.kakao.com/link/to/443961579" title="Button" class="mapway" id="daumway">다음 길찾기</a>
+                    <a href="https://map.naver.com/v5/directions/-/14135852.57257009,4517609.690444149,%EC%98%A8%EC%A6%88%EB%93%9C%EB%A1%AC,1354417881,PLACE_POI/-/transit?c=14135852.5725701,4517609.6904441,15,0,0,0,dh&isCorrectAnswer=true" title="Button" class="mapway" id="naverway">네이버 길찾기</a>
+                </div>
+                <!-- <div id="map" style="width:100%;height:350px;"></div>     -->
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+<script>
+function invite(){
+		location.href = 'index.html'
+}
+
+function yorn(){
+		location.href = 'visiteyn.html'
+}
+
+function map(){
+		location.href = 'map.html'
+}
+
+function mapway(){
+		location.href = 'https://map.kakao.com/link/to/443961579'
+}
+function img(){
+		location.href = 'img.html'
+}
+
+// $(document).ready(function(){
+
+// var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+//     mapOption = { 
+//         center: new kakao.maps.LatLng(14122828.6708211,4515503.7589505), // 지도의 중심좌표
+//         level: 3 // 지도의 확대 레벨
+//     };
+
+// var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+// // 마커가 표시될 위치입니다 
+// var markerPosition = new kakao.maps.LatLng(14122828.6708211,4515503.7589505); 
+
+// // 마커를 생성합니다
+// var marker = new kakao.maps.Marker({
+//     position: markerPosition
+// });
+
+// // 마커가 지도 위에 표시되도록 설정합니다
+// marker.setMap(map);
+
+// // 마커가 드래그 가능하도록 설정합니다 
+// marker.setDraggable(true); 
+// });
+</script>

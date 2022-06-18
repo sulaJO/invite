@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/whole.css" rel="stylesheet" type="text/css">
     <link href="css/header.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>웨딩파티 초대장</title>
 </head>
 <body>
@@ -13,10 +14,10 @@
 		<div class="container">
             <div id="hedermenu">
                 <ul id="headermenuleft">
-                    <li id="invite">초대장</li>
-                    <li id="yorn">참석여부</li>
-                    <li id="address">장소</li>
-                    <li id="photo">사진</li>
+                    <li id="invite" onclick="invite()">초대장</li>
+                    <li id="yorn" onclick="yorn()">참석여부</li>
+                    <li id="address" onclick="map()">장소</li>
+                    <li id="photo" onclick="img()">사진</li>
                     <li id="event">이벤트</li>
                     <li id="table">자리확인</li>
                     <li id="table">TMI</li>
@@ -52,3 +53,19 @@
 </body>
 </html>
 
+<script>
+function invite(){
+		location.href = 'index.html'
+}
+
+function yorn(){
+		location.href = 'visiteyn.html'
+}
+
+function map(){
+		location.href = 'map.html'
+}
+function img(){
+		location.href = 'img.html'
+}
+</script>

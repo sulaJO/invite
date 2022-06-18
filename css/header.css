@@ -7,6 +7,44 @@
     cursor: pointer;
   }
 
+  #maparea{
+    width: 100%;
+  }
+
+#maparea #mapway{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+}
+#mapway a {
+  display: flex;
+  height: 50px;
+  margin: 10px 20px 10px 20px;
+  padding: 1% 10%;
+  font-weight: 600;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+  border-radius: 5px;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+#daumway{
+  background: #FFCD36;
+}
+#daumway:hover {
+  background: #ffcd3686;
+}
+#naverway{
+  background: #19CE60;
+}
+#naverway:hover {
+  background: #19ce616c;
+}
+
 @media all and (min-width: 1280px) {
   /**************************************/
 
@@ -75,6 +113,10 @@
 
   }
 
+  #buttonarea{
+    font-size: 1.5rem;
+  }
+
   #maincontent2 div{
     font-weight: 400;
     font-size: 1.3rem;
@@ -85,7 +127,69 @@
   #dresscode img{
     width: 20%;
   }
+
+  #maincontent3{
+    margin-top: 150px;
+  }
+    #maincontent3 #nowyn{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 30px;
+
+  }
+
+  #maincontent3 div{
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+
+  }
+  /*이미지*/
+  photoimg{
+    width: 100%;
+  }
+
+  
+/*사진*/
+#photodiv{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
+.photobox{
+  width: 50%;
+  border: 1px solid rgb(230, 230, 230);
+  margin-bottom: 40px;
+}
+.photohead{
+  margin: 5px 0px;
+ display: flex;
+}
+
+.photohead img{
+  margin-left: 10px;
+  height: 80px;
+}
+.profilename{
+  margin-left: 10px;
+  margin-top: 25px;
+  font-size: 1.25rem;
+}
+
+  .photoimg img{
+    width: 100%;
+  }
+
+  .hashtag{
+    margin: 10px 10px;
+    text-align: left;
+  font-size: 1.25rem;
+
+  }
+}
+
 
 @media (min-width: 1024px) and (max-width: 1279px) {
 
@@ -154,6 +258,10 @@
     margin-bottom: 5px;
 
   }
+    #buttonarea{
+    font-size: 1.7rem;
+  }
+
     #dresscode{
     font-weight: 600;
     font-size: 1.3rem;
@@ -162,6 +270,46 @@
   }
   #dresscode img{
     width: 30%;
+  }
+
+  
+/*사진*/
+#photodiv{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photobox{
+  width: 50%;
+  border: 1px solid rgb(230, 230, 230);
+  margin-bottom: 40px;
+}
+.photohead{
+  margin: 5px 0px;
+ display: flex;
+}
+
+.photohead img{
+  margin-left: 10px;
+  height: 80px;
+}
+.profilename{
+  margin-left: 10px;
+  margin-top: 25px;
+  font-size: 1.25rem;
+}
+
+  .photoimg img{
+    width: 100%;
+  }
+
+  .hashtag{
+    margin: 10px 10px;
+    text-align: left;
+  font-size: 1.25rem;
+
   }
 }
 
@@ -237,6 +385,46 @@
   #dresscode img{
     width: 40%;
   }
+
+  
+/*사진*/
+#photodiv{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photobox{
+  width: 80%;
+  border: 1px solid rgb(230, 230, 230);
+  margin-bottom: 40px;
+}
+.photohead{
+  margin: 5px 0px;
+ display: flex;
+}
+
+.photohead img{
+  margin-left: 10px;
+  height: 80px;
+}
+.profilename{
+  margin-left: 10px;
+  margin-top: 25px;
+  font-size: 2rem;
+}
+
+  .photoimg img{
+    width: 100%;
+  }
+
+  .hashtag{
+    margin: 10px 10px;
+    text-align: left;
+  font-size: 2rem;
+
+  }
 }
 
 @media (max-width: 767px) {
@@ -304,6 +492,9 @@
     margin-bottom: 5px;
 
   }
+    #buttonarea{
+    font-size: 5rem;
+  }
     #dresscode{
     font-weight: 600;
     font-size: 2.3rem;
@@ -312,5 +503,45 @@
   }
   #dresscode img{
     width: 50%;
+  }
+
+  
+/*사진*/
+#photodiv{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photobox{
+  width: 90%;
+  border: 1px solid rgb(230, 230, 230);
+  margin-bottom: 40px;
+}
+.photohead{
+  margin: 5px 0px;
+ display: flex;
+}
+
+.photohead img{
+  margin-left: 10px;
+  height: 80px;
+}
+.profilename{
+  margin-left: 10px;
+  margin-top: 25px;
+  font-size: 2rem;
+}
+
+  .photoimg img{
+    width: 100%;
+  }
+
+  .hashtag{
+    margin: 10px 10px;
+    text-align: left;
+  font-size: 2.5rem;
+
   }
 }
