@@ -14,6 +14,7 @@
   #hedermenu {
     font-size: 1.5rem;
     color: #414040;
+    font-weight: 600;
     display: flex;
     justify-content: space-between;
   }
@@ -93,6 +94,7 @@
   #hedermenu {
     font-size: 1.5rem;
     color: #414040;
+    font-weight: 600;
     display: flex;
     justify-content: space-between;
   }
@@ -168,6 +170,7 @@
   #hedermenu {
     font-size: 1.7rem;
     color: #414040;
+    font-weight: 600;
     display: flex;
     justify-content: space-between;
   }
@@ -242,6 +245,7 @@
   #hedermenu {
     font-size: 2rem;
     color: #414040;
+    font-weight: 600;
     display: flex;
     justify-content: space-between;
   }
