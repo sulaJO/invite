@@ -133,6 +133,9 @@ form {
   padding: 0;
   white-space: nowrap;
 }
+.wrap{
+background-color: #FFF;
+}
 
 div {
   overflow: hidden;
