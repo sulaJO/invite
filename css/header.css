@@ -131,6 +131,7 @@
   #maincontent3{
     margin-top: 150px;
   }
+
     #maincontent3 #nowyn{
     font-weight: 600;
     font-size: 2rem;
@@ -144,6 +145,7 @@
     margin-bottom: 5px;
 
   }
+
   /*이미지*/
   photoimg{
     width: 100%;
@@ -250,6 +252,23 @@
 
   #maincontent #maincontentinfo div{
     margin-bottom: 10px;
+  }
+  #maincontent3{
+    margin-top: 150px;
+  }
+  
+    #maincontent3 #nowyn{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 30px;
+
+  }
+
+  #maincontent3 div{
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+
   }
 
   #maincontent2 div{
@@ -376,6 +395,24 @@
     margin-bottom: 5px;
 
   }
+    #maincontent3{
+    margin-top: 150px;
+  }
+  
+    #maincontent3 #nowyn{
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 30px;
+
+  }
+
+  #maincontent3 div{
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+
+  }
+
     #dresscode{
     font-weight: 600;
     font-size: 1.3rem;
@@ -422,7 +459,7 @@
   .hashtag{
     margin: 10px 10px;
     text-align: left;
-  font-size: 2rem;
+  font-size: 1.5rem;
 
   }
 }
@@ -492,6 +529,24 @@
     margin-bottom: 5px;
 
   }
+    #maincontent3{
+    margin-top: 100px;
+  }
+  
+    #maincontent3 #nowyn{
+    font-weight: 600;
+    font-size: 3rem;
+    margin-bottom: 30px;
+
+  }
+
+  #maincontent3 div{
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 5px;
+
+  }
+
     #buttonarea{
     font-size: 5rem;
   }
@@ -525,13 +580,13 @@
 }
 
 .photohead img{
-  margin-left: 10px;
-  height: 80px;
+  margin-left: 5px;
+  height: 60px;
 }
 .profilename{
-  margin-left: 10px;
-  margin-top: 25px;
-  font-size: 2rem;
+  margin-left: 5px;
+  margin-top: 12px;
+  font-size: 3rem;
 }
 
   .photoimg img{
@@ -541,7 +596,7 @@
   .hashtag{
     margin: 10px 10px;
     text-align: left;
-  font-size: 2.5rem;
+  font-size: 2rem;
 
   }
 }
