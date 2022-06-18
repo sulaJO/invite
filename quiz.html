@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/whole.css" rel="stylesheet" type="text/css">
+    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link href="css/quiz.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <title>웨딩파티 초대장</title>
+</head>
+<body>
+	<div class="wrap">
+		<div class="container">
+            <div id="hedermenu">
+                <ul id="headermenuleft">
+                    <li id="invite" onclick="invite()">초대장</li>
+                    <li id="yorn" onclick="yorn()">참석여부</li>
+                    <li id="address" onclick="map()">장소</li>
+                    <li id="photo" onclick="img()">사진</li>
+                    <li id="quizmenu" onclick="quiz()">퀴즈</li>
+                    <li id="table" onclick="tableset()">자리확인</li>
+                    <li id="table" onclick="tmi()">TMI</li>
+                </ul>
+            </div>
+            <form>
+                <div id="quiz">
+                    <div id="quizinfo">
+                    <div id="quizinfo1">퀴즈 정답은 결혼당일 6시 전까지 제출해주세요</div>
+                    <div id="quizinfo2">정답을 맞춰주신분께는 신랑신부의 사랑이 담긴 선물을 드립니다.</div>
+                    </div>
+                    <div class="quizdiv">
+                        <div class="quizhead">1.신부의 2부 드레스 색상을 맞춰주세요</div>
+                        <input type="radio" id="red" name="shop"><label for="red">빨강</label>
+                        <input type="radio" id="yellow" name="shop"><label for="yellow">노랑</label>
+                        <input type="radio" id="blue" name="shop"><label for="blue">파랑</label>
+                        <input type="radio" id="purple" name="shop"><label for="purple">보라</label>
+                        <input type="radio" id="pink" name="shop"><label for="pink">분홍</label>
+                        <input type="radio" id="white" name="shop"><label for="white">흰색</label>
+                    </div>
+                    <div class="quizdiv">
+                        <div class="quizhead">2.신랑이 부를 축가를 맞춰주세요</div>
+                        <input type="text" id="quizinput" name="sing"></label>
+                    </div>
+                </div>
+                <div id="quizbtndiv">
+                    <a href="" title="Button" class="btnFloat">제출</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+<script>
+function invite(){
+		location.href = 'index.html'
+}
+
+function yorn(){
+		location.href = 'visiteyn.html'
+}
+
+function map(){
+		location.href = 'map.html'
+}
+
+function img(){
+		location.href = 'img.html'
+}
+
+function quiz(){
+		location.href = 'quiz.html'
+}
+function tableset(){
+		location.href ='tableset.html'
+}
+function tmi(){
+		location.href ='tmi.html'
+}
+</script>

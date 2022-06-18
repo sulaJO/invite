@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/whole.css" rel="stylesheet" type="text/css">
     <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link href="css/tableset.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>웨딩파티 초대장</title>
 </head>
@@ -23,20 +24,17 @@
                     <li id="table" onclick="tmi()">TMI</li>
                 </ul>
             </div>
-                <div id="maincontent3">
-                <div id="nowyn">참석여부 : 참석</div>
-                    <div>참석여부를 알려주세요 </div>
-                    <div>(참석여부에 따라 자리가 배정됩니다.)</div>
-                </div>
-                <div id="buttonarea">
-                    <a href="" title="NoButton" class="ynbutton btnLightBlue">미참석</a>
-                    <a href="" title="YesButton"  class="ynbutton btnBlueGreen">참석</a>
-                </div>
-            </div>    
+            <div id="tmi">
+                <img src="/img/weddingimg.png" alt="결혼이미지">
+                <div>신부가 만드는중입니다</div> 
+            </div>
+            
         </div>
     </div>
 </body>
 </html>
+
+
 
 <script>
 function invite(){
@@ -50,8 +48,13 @@ function yorn(){
 function map(){
 		location.href = 'map.html'
 }
+
+
 function img(){
 		location.href = 'img.html'
+}
+function quiz(){
+		location.href = 'quiz.html'
 }
 function tableset(){
 		location.href ='tableset.html'

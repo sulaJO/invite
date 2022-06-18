@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,6 @@
     <link href="css/whole.css" rel="stylesheet" type="text/css">
     <link href="css/header.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=	5860086ea27ebe9c0fe99c6efe983d3c"></script>
     <title>웨딩파티 초대장</title>
 </head>
 <body>
@@ -19,9 +18,9 @@
                     <li id="yorn" onclick="yorn()">참석여부</li>
                     <li id="address" onclick="map()">장소</li>
                     <li id="photo" onclick="img()">사진</li>
-                    <li id="event">이벤트</li>
-                    <li id="table">자리확인</li>
-                    <li id="table">TMI</li>
+                    <li id="quizmenu" onclick="quiz()">퀴즈</li>
+                    <li id="table" onclick="tableset()">자리확인</li>
+                    <li id="table" onclick="tmi()">TMI</li>
                 </ul>
             </div>
             <div id="maparea">
@@ -59,29 +58,13 @@ function mapway(){
 function img(){
 		location.href = 'img.html'
 }
-
-// $(document).ready(function(){
-
-// var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-//     mapOption = { 
-//         center: new kakao.maps.LatLng(14122828.6708211,4515503.7589505), // 지도의 중심좌표
-//         level: 3 // 지도의 확대 레벨
-//     };
-
-// var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
-
-// // 마커가 표시될 위치입니다 
-// var markerPosition = new kakao.maps.LatLng(14122828.6708211,4515503.7589505); 
-
-// // 마커를 생성합니다
-// var marker = new kakao.maps.Marker({
-//     position: markerPosition
-// });
-
-// // 마커가 지도 위에 표시되도록 설정합니다
-// marker.setMap(map);
-
-// // 마커가 드래그 가능하도록 설정합니다 
-// marker.setDraggable(true); 
-// });
+function quiz(){
+		location.href = 'quiz.html'
+}
+function tableset(){
+		location.href ='tableset.html'
+}
+function tmi(){
+		location.href ='tmi.html'
+}
 </script>
